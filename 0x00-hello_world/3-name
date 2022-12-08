@@ -1,2 +1,2 @@
 #!/bash/bin
-gcc $CFILE -O cisfun
+gcc $CFILE -o cisfun
