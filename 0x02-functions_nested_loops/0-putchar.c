@@ -1,23 +1,20 @@
+#include <unistd.h>
 #include "holberton.h"
 
 /**
- * _isupper - A function that checks for uppercase character.
- * @c: An input character
- * Return: 1 if c is uppercase or 0 otherwise
+ * main - Check description
+ * Description: It prints the word Holberton, followed by a new line.
+ * Return: 0.
  */
-int _isupper(int c)
+int main(void)
 {
-	char uppercase = 'A';
-	int isupper = 0;
+	char word[9] = "Holberton";
+	int i;
 
-	for (; uppercase <= 'Z'; uppercase++)
-	{
-		if (c == uppercase)
-		{
-			isupper = 1;
-			break;
-		}
-	}
+	for (i = 0; i < 9; i++)
+		_putchar(word[i]);
+	_putchar('\n');
 
-	return (isupper);
+	return (0);
 }
+
