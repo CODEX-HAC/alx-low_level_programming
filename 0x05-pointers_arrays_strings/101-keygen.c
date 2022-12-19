@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+#include "holberton.h"` 
 /**
  * main - Generates random valid passwords for the
  *        program 101-crackme.
@@ -51,3 +51,4 @@ int main(void)
 	printf("%s", password);
 
 	return (0);
+}
