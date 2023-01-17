@@ -1,1 +1,1 @@
-STATIC LIBRIY FILE
+Static Libaries
